@@ -4,17 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github._1000teslas</groupId>
-  <artifactId>my-first-bot</artifactId>
+  <artifactId>pasta-bot</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-first-bot</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>pasta-bot</name>
+  <url>http://github.com/1000teslas/pasta-bot</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>14</maven.compiler.source>
-    <maven.compiler.target>14</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <repositories>
