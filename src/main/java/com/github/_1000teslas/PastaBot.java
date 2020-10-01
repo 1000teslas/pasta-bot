@@ -108,8 +108,59 @@ public class PastaBot extends ListenerAdapter {
                     ‘john is kill’
 
                     ‘no’
-                    """), entry("penis-kun",
-                    "Dicks are so cute omg( •?• ) when you hold one in your hand and it starts twitching its like its nuzzling you(/) or when they perk up and look at you like\"owo nya?:3 c\" hehe ~ penis-kun is happy to see me!!(?) and the most adorable thing ever is when sperm-sama comes out but theyre rlly shy so u have to work hard!!(?••) but when penis-kun and sperm-sama meet and theyre blushing and all like \"uwaaa~!\" (?´?)?: ?hehehe~penis-kun is so adorable (?´???)?::?"));
+                    """),
+            entry("penis-kun",
+                    "Dicks are so cute omg( •?• ) when you hold one in your hand and it starts twitching its like its nuzzling you(/) or when they perk up and look at you like\"owo nya?:3 c\" hehe ~ penis-kun is happy to see me!!(?) and the most adorable thing ever is when sperm-sama comes out but theyre rlly shy so u have to work hard!!(?••) but when penis-kun and sperm-sama meet and theyre blushing and all like \"uwaaa~!\" (?´?)?: ?hehehe~penis-kun is so adorable (?´???)?::?"),
+            entry("i love jimmy butler",
+                    "I love Jimmy Butler. I love his name, I love the shape of his body, I love the way he plays. I eat a lot of boiled eggs and lift weights to try and be like this guy but I can't. There are 6 grams of protein in an egg but I can't eat enough to get big like him. Nice round muscles. They're smooth too, like the waves of lake superior on a calm day. When I was a kid I ate big eggs to be hot like Glenn Robinson, and I got some great results, some of the roundest muscles in my class, but these days I'm looking at 6 eggs a day and it's not good enough to pop Jimmy style muscles out my scrawny arms ever since dad left."),
+            entry("shohei ohtani",
+                    """
+                                                hi from japan 🇯🇵
+
+                            I wanna tell you below 2 information to explain why Ohtani is a good pitcher
+
+                            <summary >
+
+                            ❶:his hamstring muscles is stronger than ordinary one
+
+                            ❷:He seems to get used to grab MLB ball
+
+                            <details >
+
+                            about ❶
+
+                            a specialist pointed it out that his hamstring muscles are stronger than ordinary others,and he uses it so harder
+
+                            if ordinary person uses the same way,his hamstring must break
+
+                            some one told me why the muscle of him is so stronger,that he use to do swimming in his child days and swimming makes the muscles so strong
+
+                            about ❷
+
+                            Okajaima,who is the former pitcher of Red Sox,points it out that He seems to get used to use MLB ball because it’s so different
+
+                            (edit,every pitcher from Japan confuses the difference,for example Yu Darvish said like that)
+
+                            1.MLB ball:149kg(edit,*149g)/24cm,more slippy:so it makes breaking ball more effective
+
+                            2.NPB ball:142kg(edit,142g)/23cm,less slippy,breaking ball less effective
+
+                            and he has also so fast ball around 100miles
+
+                            so he can select fast ball,less breaking ball,strong breaking ball
+
+                            That’s why he would be more great Pitcher 🚨
+
+                            <edit >
+
+                            Thank an Anonymous Person Who gave GOLD to me ❤️⚾️🙏🍻
+
+                            and Thank Y’all for Cheering !!!👍⚾️🥂🍻
+
+                            <edit>
+
+                            3 anonymous person and /r/frogfuzion gave gold to me ,thank you very very very much!!!❤️❤️❤️🇯🇵🍻🍻🇯🇵🍺🍺🥂✊
+                                                """));
     static final String HELP_MESSAGE = "available pastas: " + pastas.keySet().toString();
 
     public static void main(String[] args) throws LoginException, VaultException {
