@@ -27,7 +27,9 @@ public class PastaBot extends ListenerAdapter {
             entry("he boomed me",
                     "Overheard in Cavs locker room after Game 7: “He got me,” LeBron said of Tatum's dunk over him. \"That f***ing Tatum boomed me.\" LeBron added, “He’s so good,” repeating it four times. LeBron then said he wanted to add Tatum to the list of players he works out with this summer."),
             entry("john is kill",
-                    "apology for poor english\nwhen were you when john lenin dies?\ni was sat at home eating smegma butter when pjotr ring\n‘john is kill’\n‘no’"));
+                    "apology for poor english\nwhen were you when john lenin dies?\ni was sat at home eating smegma butter when pjotr ring\n‘john is kill’\n‘no’"),
+            entry("penis-kun",
+                    "Dicks are so cute omg( •?• ) when you hold one in your hand and it starts twitching its like its nuzzling you(/) or when they perk up and look at you like\"owo nya?:3 c\" hehe ~ penis-kun is happy to see me!!(?) and the most adorable thing ever is when sperm-sama comes out but theyre rlly shy so u have to work hard!!(?••) but when penis-kun and sperm-sama meet and theyre blushing and all like \"uwaaa~!\" (?´?)?: ?hehehe~penis-kun is so adorable (?´???)?::?"));
     static final String HELP_MESSAGE = "available pastas: " + pastas.keySet().toString();
 
     public static void main(String[] args) throws LoginException, VaultException {
