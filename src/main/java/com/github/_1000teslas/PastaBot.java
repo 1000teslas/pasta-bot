@@ -33,9 +33,12 @@ public class PastaBot extends ListenerAdapter {
         var message = event.getMessage();
         var content = message.getContentRaw();
         var channel = event.getChannel();
-        channel.sendMessage(switch (content) {
-            case "navy seal" -> NAVY_SEAL_PASTA;
-            default -> HELP_MESSAGE;
-        }).queue();
+        if (content.startsWith("pasta")) {
+            content = content.replaceFirst("^pasta ", "");
+            channel.sendMessage(switch (content) {
+                case "navy seal" -> NAVY_SEAL_PASTA;
+                default -> HELP_MESSAGE;
+            }).queue();
+        }
     }
 }
