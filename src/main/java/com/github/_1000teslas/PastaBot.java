@@ -25,7 +25,9 @@ public class PastaBot extends ListenerAdapter {
             entry("clap bombs",
                     "Yeah, fuck off buddy we absolutely need more Laine clips. Fuckin every time this kid steps on the ice someone scores. kids fuckin dirt nasty man. Does fuckin ovi have 12 goals this season I dont fuckin think so bud. I'm fuckin tellin ya Patrik \"golden flow\" Laine is pottin 50 in '17 fuckin callin it right now. Clap bombs, fuck moms, wheel, snipe, and fuckin celly boys fuck"),
             entry("he boomed me",
-                    "Overheard in Cavs locker room after Game 7: “He got me,” LeBron said of Tatum's dunk over him. \"That f***ing Tatum boomed me.\" LeBron added, “He’s so good,” repeating it four times. LeBron then said he wanted to add Tatum to the list of players he works out with this summer."));
+                    "Overheard in Cavs locker room after Game 7: “He got me,” LeBron said of Tatum's dunk over him. \"That f***ing Tatum boomed me.\" LeBron added, “He’s so good,” repeating it four times. LeBron then said he wanted to add Tatum to the list of players he works out with this summer."),
+            entry("john is kill",
+                    "apology for poor english\nwhen were you when john lenin dies?\ni was sat at home eating smegma butter when pjotr ring\n‘john is kill’\n‘no’"));
     static final String HELP_MESSAGE = "available pastas: " + pastas.keySet().toString();
 
     public static void main(String[] args) throws LoginException, VaultException {
