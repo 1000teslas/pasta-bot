@@ -44,7 +44,7 @@ public class PastaBot extends ListenerAdapter {
         var content = message.getContentRaw();
         var channel = event.getChannel();
         if (content.endsWith("pasta")) {
-            content = content.replace(" pasta$", "");
+            content = content.replaceFirst(" pasta$", "");
             channel.sendMessage(pastas.getOrDefault(content, HELP_MESSAGE)).queue();
         }
     }
