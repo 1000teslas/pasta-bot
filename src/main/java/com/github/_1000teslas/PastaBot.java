@@ -206,11 +206,11 @@ public class PastaBot extends ListenerAdapter {
         if (content.endsWith("pasta")) {
             content = content.replaceFirst(" pasta$", "");
             var full_msg = pastas.getOrDefault(content, HELP_MESSAGE);
-            Iterable<String> lines = () -> full_msg.lines().iterator();
             var chunks = new ArrayList<String>();
             {
                 var chunk = new StringBuilder();
-                for (var line : lines) {
+                for (var line : full_msg.split("\n")) {
+                    line = line + "\n";
                     assert line.length() <= MAX_MESSAGE_LENGTH : "line is longer than maximum message length";
                     assert chunk.length() <= MAX_MESSAGE_LENGTH;
                     if (chunk.length() + line.length() > MAX_MESSAGE_LENGTH) {
