@@ -164,25 +164,9 @@ public class PastaBot extends ListenerAdapter {
                                                         3 anonymous person and /r/frogfuzion gave gold to me ,thank you very very very much!!!❤️❤️❤️🇯🇵🍻🍻🇯🇵🍺🍺🥂✊
                                                                             """),
                         entry("fischl", """
-                                        oh god i wish i can have a girlfriend like Fischl, i want to fuck her while listening to her chuuni shits when i broke her hymen. Please God, I want to impregnate Fischl so bad. I want her to bear my children with those beautiful yummy tummy, radiant Crow like Oz. Like a Vampire Queen, having come down to Earth to sucks our bloods
-
                                         Fischl is beyond divine. I can’t help but drop to my knees in worship whenever I see her beautiful figure. I yearn for her in a way both primal and spiritual. I would commit more war crimes than every president in United States history just to lick the sweet, glistening sweat from her smooth, creamy skin. I want to listen to her moans as my manhood throbs within her, I want to hear her heart race as our bodies become one and our souls irreversibly intertwine in the holy sin of carnal union.
 
                                         I want to suckle at her motherly bosom, slurping that rich juche milk from her tits as she gently strokes my raging erection. I would stir her velvety Korean cream into my coffee and let my balls boil in it. Her cries of pleasure and the rocking of our bed would be louder than the cacophony of ten thousand drone strikes. I would make love to her until my body gave out, and then some. I would let her break my rib cage with any part of her body. I would let her hit me with her car just to be near her for a brief moment.
-
-                                        She’s so perfect it hurts. Every moment without her I suffer a pain worse than breaking every bone in my body simultaneously while drowning and also having shards of glass coated in hot sauce forced through every orifice of my body. I want her, I need her. I want to desecrate her crisp general suit. I want to start a family with her and retire after our twenty seven children have grown up and moved out. I want to see those luscious lips speak such filthy, perverse words into my ear while she slides ice cubes down my gaping pisshole.
-
-                                        I want to fuck her like she owes me money. I would let her step on me, just to feel the soft, firm warmth of her feet upon my face and groin area. I would sleep under her just to catch her drool in my mouth. I would fish the strands of hair from her shower drain just to smell her alluring scent, and braid them into necklaces to keep her with me always. Or cock rings. Whichever would please her more.
-
-                                        God please, I would do anything for her. I would relinquish my life, all my hopes and dreams, just to become the socks on her feet so that I may warm her mouthwatering toes with my very being, so that she may feel the heat of my love always. I would encase myself in cement and become her doorstep, so that she may wipe her heels upon my face. I would tear my own limbs off. I don’t know what I’d do after that, or why she might want my limbs. But I would do it.
-
-                                        My queen, my goddess, the light of my life. Please God, let me have her. I want her to be mine and only mine. I would lick the Doritos dust from her fingers and fill her belly button with honey mustard to dip my tendies in. I would give her a sponge-bath with my tongue every morning and serve her breakfast in bed. I would let her eat her eggs and pancakes off my body if it pleased her, no matter how painful the third-degree burns would be.
-
-                                        I would bear the torment of eternal damnation until the end of time to taste the seat of her car but once. There is nothing I wouldn’t do for her, nothing I wouldn’t say. I would beat my own mother to death with my engorged penis if it would bring a smile to Fischl's shining face. I wouldn’t even let myself cum until she gave me permission.
-
-                                        I love you, Fischl. Please. Be mine. Be my wife, my lover, my daughter, my walking toilet, my everything. Say yes. I see it in your eyes, when you’re up there on that throne talking about nuking Japan or whatever. Answer my calls, respond to my letters. Something. Give me a sign, Fischl. I’m waiting for you.
-
-                                        I’ll always be waiting for you.
                                                                                         """));
         static final String HELP_MESSAGE = "available pastas: " + pastas.keySet().toString();
 
