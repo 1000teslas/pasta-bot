@@ -219,6 +219,7 @@ public class PastaBot extends ListenerAdapter {
                     }
                     chunk.append(line);
                 }
+                chunks.add(chunk.toString());
             }
             for (var chunk : chunks) {
                 channel.sendMessage(chunk).queue();
