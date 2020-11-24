@@ -2,14 +2,18 @@ package com.github._1000teslas;
 
 import java.util.Map;
 import static java.util.Map.entry;
-
+import java.util.stream.Collectors;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
 import javax.security.auth.login.LoginException;
 
 import com.bettercloud.vault.Vault;
 import com.bettercloud.vault.VaultConfig;
 import com.bettercloud.vault.VaultException;
+
+import org.davidmoten.text.utils.WordWrap;
 
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
@@ -203,26 +207,43 @@ public class PastaBot extends ListenerAdapter {
         var message = event.getMessage();
         var content = message.getContentRaw();
         var channel = event.getChannel();
-        if (content.endsWith("pasta")) {
-            content = content.replaceFirst(" pasta$", "");
-            var full_msg = pastas.getOrDefault(content, HELP_MESSAGE);
+        var pattern = Pattern.compile("(.*)( pasta)\\p{javaWhitespace}*(-long|)");
+        var matcher = pattern.matcher(content);
+        if (matcher.matches()) {
+            var name = matcher.group(1);
+            var option = matcher.group(3);
+
             var chunks = new ArrayList<String>();
             {
                 var chunk = new StringBuilder();
-                for (var line : full_msg.split("\n")) {
-                    line = line + "\n";
-                    assert line.length() <= MAX_MESSAGE_LENGTH : "line is longer than maximum message length";
-                    assert chunk.length() <= MAX_MESSAGE_LENGTH;
-                    if (chunk.length() + line.length() > MAX_MESSAGE_LENGTH) {
-                        chunks.add(chunk.toString());
-                        chunk = new StringBuilder();
+                var isStart = true;
+                // break up long lines
+                var lines = WordWrap.from(pastas.getOrDefault(name, HELP_MESSAGE)).maxWidth(MAX_MESSAGE_LENGTH).wrap()
+                        .lines().filter(l -> !l.isBlank()).collect(Collectors.toList());
+                // fuse short lines
+                for (var line : lines) {
+                    assert line.length() <= MAX_MESSAGE_LENGTH;
+                    if (isStart) {
+                        chunk.append(line);
+                        isStart = false;
+                    } else {
+                        if (chunk.length() + 1 + line.length() > MAX_MESSAGE_LENGTH) {
+                            chunks.add(chunk.toString());
+                            chunk = new StringBuilder();
+                        } else {
+                            chunk.append('\n');
+                        }
+                        chunk.append(line);
                     }
-                    chunk.append(line);
                 }
                 chunks.add(chunk.toString());
             }
-            for (var chunk : chunks) {
-                channel.sendMessage(chunk).queue();
+            if (option.equals("-long")) {
+                for (var chunk : chunks) {
+                    channel.sendMessage(chunk).queue();
+                }
+            } else {
+                channel.sendMessage(chunks.get(0)).queue();
             }
         }
     }
